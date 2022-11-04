@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">        <!-- CSS link -->
-    <script src="script.js"></script>               <!-- JavaScript link -->
+    <script src="script.js" defer></script>               <!-- JavaScript link -->
     <title>ROCK PAPER SCISSORS</title>
 </head>
 <body>
@@ -13,15 +13,34 @@
         <h1 class="title">WELCOME TO ROCK PAPER SCISSORS</h1>
     </div>
     <div class="container">
-        <div class="sidebar-left"></div>
+        <div class="sidebar-left sidebar">
+            <h2>Player</h2>
+            <h1 class="playerPoints ">0</h1>
+            <h3>points</h3>
+            <button id="btnPlRock" class="btn"><img src="img/Rock.png" alt="Rock" class="rockIcon icon playerIcon"></button>
+            <button id="btnPlPaper" class="btn"><img src="img/Paper.png" alt="Paper" class="paperIcon icon playerIcon"></button>
+            <button id="btnPlScissors" class="btn"><img src="img/Scissors.png" alt="Rock" class="scissorsIcon icon playerIcon"></button>
+        </div>
         <div class="content">
-            <div class="main-text"></div>
+            <div class="main-text">
+                <h2>Choose your weapon</h2>
+            </div>
             <div class="battle-area">
-                <div class="battle-left"></div>
-                <div class="battle-right"></div>
+                <div class="battle-symbols"></div>
+                <div class="battle-stickmen">
+                    <img class="playerStick" src="img/stickman.png" alt="Player Stickman!">
+                    <img class="cpuStick" src="img/stickman.png" alt="CPU Stickman!">
+                </div>
             </div>
         </div>
-        <div class="sidebar-right"></div>
+        <div class="sidebar-right sidebar">
+            <h2>Computer</h2>
+            <h1 class="cpuPoints ">0</h1>
+            <h3>points</h3>
+            <button class="btnCpuRock btn"><img src="img/Rock.png" alt="Rock" class="rockIcon icon cpuIcon"></button>
+            <button class="btnCpuPaper btn"><img src="img/Paper.png" alt="Paper" class="paperIcon icon cpuIcon"></button>
+            <button class="btnCpuScissors btn"><img src="img/Scissors.png" alt="Rock" class="scissorsIcon icon cpuIcon"></button>            
+        </div>
     </div>
     <div class="footer"></div>
 </body>

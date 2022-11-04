@@ -13,26 +13,56 @@ body {
     display: flex;
     height: 500px;
 }
-.sidebar-left {
-    width: 25%;
+
+.sidebar {
+    width: 20%;
+    text-align: center;
 }
 
-.content {
+.btn {
     width: 50%;
+    height: auto;
+    margin: 8px 0 8px 0;
+    background-color: transparent;
+    border: none;
+}
+
+.icon {
+    width: 100%;
+}
+
+.cpuIcon {
+    transform: scaleX(-1)
+}
+.content {
+    width: 60%;
 }
 
 .main-text {
     height: 30%;
+    text-align: center;
 }
 
 .battle-area {
     height: 70%;
     display: flex;
+    flex-direction: column;
+}
+
+.battle-symbols{
+    height: 50%;
+    display: flex;
+    justify-content: center;
+}
+
+.battle-stickmen {
+    height: 50%;
+    display: flex;
     justify-content: space-around;
 }
 
-.sidebar-right {
-    width: 25%;
+.cpuStick {
+    transform: scaleX(-1);
 }
 
 /* footer */
