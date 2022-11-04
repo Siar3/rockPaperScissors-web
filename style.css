@@ -1,0 +1,41 @@
+body {
+    background: url(img/background.jpg);
+    background-repeat: repeat-y;
+    background-size: cover;
+}
+/* header */
+.title {
+    text-align: center;
+}
+
+/* content - main area */
+.container {
+    display: flex;
+    height: 500px;
+}
+.sidebar-left {
+    width: 25%;
+}
+
+.content {
+    width: 50%;
+}
+
+.main-text {
+    height: 30%;
+}
+
+.battle-area {
+    height: 70%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.sidebar-right {
+    width: 25%;
+}
+
+/* footer */
+.footer {
+    display: flex;
+}
