@@ -67,7 +67,7 @@ body {
     transform: scaleX(-1);
 }
 
-.battle-stickmen {
+#battle-stickmen {
     height: 50%;
     display: flex;
     justify-content: space-around;
