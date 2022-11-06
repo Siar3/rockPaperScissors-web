@@ -15,7 +15,7 @@
     <div class="container">
         <div class="sidebar-left sidebar">
             <h2>Player</h2>
-            <h1 class="playerPoints ">0</h1>
+            <h1 id="playerPoints">0</h1>
             <h3>points</h3>
             <button id="btnPlRock" class="btn"><img src="img/Rock.png" alt="Rock" class="rockIcon icon playerIcon"></button>
             <button id="btnPlPaper" class="btn"><img src="img/Paper.png" alt="Paper" class="paperIcon icon playerIcon"></button>
@@ -24,9 +24,11 @@
         <div class="content">
             <div class="main-text">
                 <h2>Choose your weapon</h2>
+                <h3>First to win 5, wins it all!</h3>
+                <p id="resultText"></p>
             </div>
             <div class="battle-area">
-                <div class="battle-symbols"></div>
+                <div id="battle-symbols"></div>
                 <div class="battle-stickmen">
                     <img class="playerStick" src="img/stickman.png" alt="Player Stickman!">
                     <img class="cpuStick" src="img/stickman.png" alt="CPU Stickman!">
@@ -35,7 +37,7 @@
         </div>
         <div class="sidebar-right sidebar">
             <h2>Computer</h2>
-            <h1 class="cpuPoints ">0</h1>
+            <h1 id="cpuPoints">0</h1>
             <h3>points</h3>
             <button class="btnCpuRock btn"><img src="img/Rock.png" alt="Rock" class="rockIcon icon cpuIcon"></button>
             <button class="btnCpuPaper btn"><img src="img/Paper.png" alt="Paper" class="paperIcon icon cpuIcon"></button>
