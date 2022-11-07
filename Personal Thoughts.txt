@@ -1,0 +1,35 @@
+I just finished this mini-project as an exercise during the "The Odin Project" course (link at https://www.theodinproject.com/lessons/foundations-revisiting-rock-paper-scissors).
+The focus this time is around Javascript's selectors and functionalities: linking to, creating, adding and removing elements; the core of the rock-paper-scissors script was already done for a previous lesson, when the focus was on just the functions part of JS (inputting the player choice by console/alert boxes), but i had to touch some details obviously.
+
+THE DESIGN
+I started this project by designing the webpage first: this meant i had to search for, download and format the few images i needed and make a draft of the UI of the mini-game.
+After drawing a primitive UI (look in the img folder for it lol) in paint3D, the moment came for me to start putting down some lines of code. I drew the UI because i wanted to have clear in my mind the division of the webpage and the contents of each area of it; i feel this is very useful when i have to decide how to structure the html body, where to put divs and how many nested elements i would need. The general division of the page in "areas" went smoothly and i found i didn't need to touch it again or add new sections for the whole project. 
+Flexbox is easy to use and understand, its core concepts were still in my mind and i didn't need much research in order to actually use them.
+Beside the downloaded images, i didn't focus at all on the visual part of the webpage, the CSS part can be done much better if i wanted to put more time in it; i decided on this course of action since the focus of the lesson was JavaScript and i had already done a project based on CSS and its options. I mean, i didn't even set a main font.
+
+THE SCRIPT
+Moving on to the JS, having designed the plan for the game previously, the general idea was already there. I think the most difficult part here was paying attention to write tags correctly -- i got stuck once because i didn't notice i had put a space in a class name in the HTML -- but generally speaking, if i wanted to do something, like creating an object or make the code do an action, i always knew what element, type of function or format i had to use; i often had to research use cases to write the code correctly, but that too was quick, since i knew where and what to search for. The few errors i got while building the functions were corrected easily too after some research.
+
+GIT
+This being a following project about something i already had thought of, i didn't really have to design much or do some trial and error. The plans were already there. My commits came whenever i finished some block of code and it was working as intended but i know that i should probably have committed more. That said, i started using the git implementation in VSCode instead of using the command line; i felt it is easier, doesn't clutter my screen much and i could go back to coding faster; will still keep practicing the command line anyway, i still feel like it can't be replaced so easily.
+
+FINAL THOUGHS
+All in all i enjoyed this project, it was really useful thanks to the research i had to do for many of the situations i wanted to realize.
+It was the first time i had to use getElementById and getElementsByClassName and that really helped me practice when i felt it was better to use one or the other; i learned how to write and how to make use of collection of elements with loops and why i have to use Array.from() to benefit from them. I really needed the experience with addEventListener since i hadn't yet understood how to implement a function right after it.
+My code can for sure be optimized, i really don't like having to put those huge "if else" blocks there in the middle and could merge them in one, but i feel that's not really the point of this project, so i left them like they were in the previous iteration of the project; following the lessons, i have yet to read anything about optimization of code, so i'll think about it when i know something more.
+Regarding the code itself, i used a lot of variables and i think i did a good job in naming them, keeping in mind the concept of "self-explaining" code. I put in a lot of comments on purpose, this being an exercise that i want to show to friends and colleagues that may or may not know something about JavaScript, but i know that so much explanation would be exagerated on an actual project.
+It's the first time i had to implement a "reset button" and it was nice to think about how to hide, remove and add the various elements in the page in order to put the user in the starting situation.
+
+Steadily going forward
+
+Note-to-self: footer is empty at this point in time, i want to talk about it with a colleague before writing on it.
+
+
+
+
+
+
+credits:
+
+background: https://www.pexels.com/photo/white-and-black-printer-paper-7597722/
+rock-paper-scissors icons: https://en.wikipedia.org/wiki/Rock_paper_scissors#/media/File:Rock-paper-scissors.svg
