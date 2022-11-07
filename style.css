@@ -55,15 +55,14 @@ body {
     justify-content: center;
 }
 
-.battle-icon {
-    height: auto;
-    max-width: 100%;
+.battle-icon,
+.battle-icon-cpu {
+    width: 50%;
+    height: fit-content;
     margin-right: 2%;
 }
 
 .battle-icon-cpu {
-    height: auto;
-    max-width: 100%;
     transform: scaleX(-1);
 }
 
