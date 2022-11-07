@@ -18,9 +18,12 @@ All in all i enjoyed this project, it was really useful thanks to the research i
 It was the first time i had to use getElementById and getElementsByClassName and that really helped me practice when i felt it was better to use one or the other; i learned how to write and how to make use of collection of elements with loops and why i have to use Array.from() to benefit from them. I really needed the experience with addEventListener since i hadn't yet understood how to implement a function right after it.
 My code can for sure be optimized, i really don't like having to put those huge "if else" blocks there in the middle and could merge them in one, but i feel that's not really the point of this project, so i left them like they were in the previous iteration of the project; following the lessons, i have yet to read anything about optimization of code, so i'll think about it when i know something more.
 Regarding the code itself, i used a lot of variables and i think i did a good job in naming them, keeping in mind the concept of "self-explaining" code. I put in a lot of comments on purpose, this being an exercise that i want to show to friends and colleagues that may or may not know something about JavaScript, but i know that so much explanation would be exagerated on an actual project.
+One thing i was thinking about since the start was that i don't know anything about animations, yet. I could have added maybe some quick on hover trasformations on the buttons?
 It's the first time i had to implement a "reset button" and it was nice to think about how to hide, remove and add the various elements in the page in order to put the user in the starting situation.
+ 
 
 Steadily going forward
+
 
 Note-to-self: footer is empty at this point in time, i want to talk about it with a colleague before writing on it.
 
