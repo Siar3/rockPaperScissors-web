@@ -57,8 +57,8 @@ body {
 
 .battle-icon,
 .battle-icon-cpu {
-    width: 50%;
-    height: fit-content;
+    max-width: 50%;
+    height: initial;
     margin-right: 2%;
 }
 
